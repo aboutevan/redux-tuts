@@ -1,8 +1,2 @@
-export function selectBook(book) {
-  // selectBook is an action creator, it needs to return an action,
-  // an object with a type prop
-  return {
-    type: 'BOOK_SELECTED',
-    payload: book
-  }
-}
+
+const API_KEY = '5f306d64e52ff70cadafad304e23bdfb';
